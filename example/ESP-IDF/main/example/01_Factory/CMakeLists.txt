@@ -1,0 +1,15 @@
+idf_component_register(
+    SRCS
+        "main.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        QMI8658
+        LCD_Driver
+        SD_SPI
+        Wireless
+        io_extension
+        LVGL_UI
+        lvgl__lvgl
+        button
+)

@@ -1,0 +1,15 @@
+idf_component_register(
+    SRCS
+        "SD_SPI.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        fatfs
+        vfs
+        spi_flash
+        esp_jpeg
+        io_extension
+        LCD_Driver
+        lvgl__lvgl
+)

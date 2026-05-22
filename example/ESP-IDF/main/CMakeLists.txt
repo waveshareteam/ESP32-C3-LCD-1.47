@@ -1,0 +1,24 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "example/01_Factory/Factory_Example.c"
+        "example/01_Factory/LVGL_UI.c"
+        "example/02_SD/SD_Example.c"
+        "example/03_Brightness/Brightness_Example.c"
+        "example/04_LVGL/LVGL_Example.c"
+    INCLUDE_DIRS
+        "."
+        "example/01_Factory"
+        "example/02_SD"
+        "example/03_Brightness"
+        "example/04_LVGL"
+    REQUIRES
+        QMI8658
+        LCD_Driver
+        SD_SPI
+        Wireless
+        io_extension
+        lvgl__lvgl
+        button
+        espressif__esp_jpeg
+)
