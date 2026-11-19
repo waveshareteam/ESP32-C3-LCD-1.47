@@ -1,0 +1,20 @@
+# Factory Firmware
+
+[English](README.md) | [简体中文](README_ZH.md)
+
+This directory stores the tested factory image for the ESP32-C3-LCD-1.47 development board.
+
+| File | Purpose |
+| --- | --- |
+| [ESP32-C3-LCD-1.47_FactoryOnly_20260514.bin](ESP32-C3-LCD-1.47_FactoryOnly_20260514.bin) | Factory recovery firmware for the ESP32-C3-LCD-1.47 board, dated 2026-05-14. Flash from `0x0`. |
+
+Before flashing:
+
+- Back up any device-specific data that must be preserved.
+- Confirm the board model and hardware revision.
+- Erase the target device before writing the merged image.
+- Follow the flashing procedure in the product documentation.
+
+SHA-256: `$(Get-FileHash 'C:\Users\ag\Desktop\固件\ESP32-C3-LCD-1.47\ESP32-C3-LCD-1.47_FactoryOnly_20260514.bin' -Algorithm SHA256).Hash`
+
+This file is a single merged BIN for factory recovery.
