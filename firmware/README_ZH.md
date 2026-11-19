@@ -15,6 +15,7 @@
 - 烧录合并镜像前先整片擦除目标设备。
 - 按产品文档中的烧录流程操作。
 
-SHA-256：`$(Get-FileHash 'C:\Users\ag\Desktop\固件\ESP32-C3-LCD-1.47\ESP32-C3-LCD-1.47_FactoryOnly_20260514.bin' -Algorithm SHA256).Hash`
+SHA-256：`2FF4EAE0F1E75E16F4DA0D9E71FE09D674D4A6ACAB37FDCD9DEC691F50CD411B`
 
 该文件是用于恢复出厂功能的单个合并 BIN。
+
