@@ -15,6 +15,7 @@ Before flashing:
 - Erase the target device before writing the merged image.
 - Follow the flashing procedure in the product documentation.
 
-SHA-256: `$(Get-FileHash 'C:\Users\ag\Desktop\固件\ESP32-C3-LCD-1.47\ESP32-C3-LCD-1.47_FactoryOnly_20260514.bin' -Algorithm SHA256).Hash`
+SHA-256: `2FF4EAE0F1E75E16F4DA0D9E71FE09D674D4A6ACAB37FDCD9DEC691F50CD411B`
 
 This file is a single merged BIN for factory recovery.
+
