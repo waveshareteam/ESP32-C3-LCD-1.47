@@ -1,7 +1,4 @@
 **/.git/
-**/.gitmodules
-**/.gitattributes
-**/.gitkeep
 **/.vscode
 **/.gitindex
 **/.gitlog
@@ -12,3 +9,12 @@
 **/dependencies.lock
 **/sdkconfig
 **/sdkconfig.old
+.claude/
+.cursor/
+.codex/
+.gemini/
+.windsurf/
+.continue/
+.roo/
+.cline/
+.aider*

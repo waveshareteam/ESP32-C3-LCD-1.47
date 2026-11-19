@@ -1,57 +1,49 @@
-# Waveshare ESP32-C3-LCD-1.47 Product Engineering Sample Program
+<div align="center">
+
+# Waveshare ESP32-C3-LCD-1.47
 
 [中文](README_ZH.md)
 
-This product is a 1.47-inch development board designed by Waveshare based on the ESP32-C3 Wi-Fi & Bluetooth MCU. 
-It features a 172×320 IPS LCD display, onboard Wi-Fi/Bluetooth connectivity, USB Type-C interface, battery charging circuit, and rich GPIO expansion capabilities, 
-making it suitable for IoT applications, wearable devices, smart home control panels, and embedded GUI projects.
+[🛒 Product](https://www.waveshare.com/ESP32-C3-LCD-1.47.htm) · [📦 Firmware](firmware/) · [🧩 ESP-IDF](examples/esp-idf/ESP32-C3-LCD-1.47/) · [🔧 Arduino](examples/arduino/examples/) · [📖 Documentation](https://docs.waveshare.com/ESP32-C3-LCD-1.47)
 
-- [Purchase Link](https://www.waveshare.com/shop/ESP32-C3-LCD-1.47.htm)
-- [Documentation](https://docs.waveshare.com/ESP32-C3-LCD-1.47)
+<img src="docs/images/ESP32-C3-LCD-1.47.webp" width="500">
 
-![Product Image](./assets/produce-01.webp)
----
+</div>
 
-## 🔧 Configuration
+## ✨ Overview
 
-You can find detailed configuration information on the product wiki page
+ESP32-C3 development board with a 1.47-inch 172×320 IPS LCD, Wi-Fi, Bluetooth, USB Type-C, charging circuit, SD interface and GPIO expansion. It uses 4 MB flash and no PSRAM.
 
----
+## 📦 Quick Start
 
-## 🛠️ Contributing
+Download the [factory firmware](firmware/ESP32-C3-LCD-1.47_FactoryOnly_20260514.bin) and flash it as a merged image.
 
-We welcome contributions! Here’s how you can help:
+## 🧪 Examples
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes with clear descriptions.
-4. Submit a pull request for review.
+| Framework | Examples |
+| --- | --- |
+| ESP-IDF | [Project](examples/esp-idf/ESP32-C3-LCD-1.47/) |
+| Arduino | [Graphics](examples/arduino/examples/01_gfx_helloworld/), [SD](examples/arduino/examples/02_SD/), [Brightness](examples/arduino/examples/03_Brightness/), [LVGL](examples/arduino/examples/04_LVGL/) |
 
----
+## 🛠️ Development Environment
 
-## 🧩 Issues and Support
+| Framework | Version | Examples |
+| --- | --- | --- |
+| ESP-IDF | v5.3.2 | 1 project |
+| Arduino core | 3.1.1 | 4 |
 
-If you encounter any issues:
+## 📚 Resources
 
-- Check the [Issues](https://github.com/waveshareteam/ESP32-C3-LCD-1.47/issues) section.
-- Create a new issue with detailed information.
-- Refer to the documentation for troubleshooting tips.
-- Contact the Waveshare team and provide the order number to obtain technical support.
+- [Schematic](hardware/schematic/ESP32-C3-LCD-1.47-Schematic.pdf)
+- [Mechanical drawing](hardware/mechanical/ESP32-C3-LCD-1.47-Mechanical.dxf)
+- [3D model](hardware/mechanical/ESP32-C3-LCD-1.47-3D.step)
+- [Product page](https://www.waveshare.com/ESP32-C3-LCD-1.47.htm)
+- [Wiki](https://docs.waveshare.com/ESP32-C3-LCD-1.47)
 
----
+## 🤝 Support
 
-## 📜 License
+Please use the [GitHub Issues](https://github.com/waveshareteam/ESP32-C3-LCD-1.47/issues) page for technical questions and bug reports.
 
-This repository is licensed under the Apache License License. See the [LICENSE](LICENSE) file for details.
+## 📄 License
 
----
-
-## 🙌 Acknowledgments
-
-- Waveshare for their excellent hardware platforms and software support
-- The Espressif Team for their continuous support.
-- Open-source contributors who make these projects possible.
-
----
-
-Thank you for using Waveshare Electronics Products! 🚀
+Apache License 2.0. See [LICENSE](LICENSE).
