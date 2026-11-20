@@ -8,7 +8,7 @@
     <a href="LICENSE"><img alt="许可证" src="https://img.shields.io/github/license/waveshareteam/ESP32-C3-LCD-1.47"></a>
   </p>
   <p>
-    <a href="https://www.waveshare.net/shop/ESP32-C3-LCD-1.47.htm">🛒 产品</a> &middot;
+    <a href="https://www.waveshare.com/ESP32-C3-LCD-1.47.htm">🛒 产品</a> &middot;
     <a href="firmware/">📦 固件</a> &middot;
     <a href="examples/esp-idf/">🧩 ESP-IDF</a> &middot;
     <a href="examples/arduino/examples/">🔧 Arduino</a> &middot;
@@ -72,7 +72,7 @@
 
 - [原理图](hardware/schematic/)
 - [机械资料（尺寸图和 3D 模型）](hardware/mechanical/)
-- [产品页](https://www.waveshare.net/shop/ESP32-C3-LCD-1.47.htm)
+- [产品页](https://www.waveshare.com/ESP32-C3-LCD-1.47.htm)
 - [Wiki](https://docs.waveshare.net/ESP32-C3-LCD-1.47/)
 
 ## 🤝 支持
@@ -83,3 +83,4 @@
 ## 📄 许可证
 
 本仓库使用 Apache License 2.0，详见 [LICENSE](LICENSE)。
+
